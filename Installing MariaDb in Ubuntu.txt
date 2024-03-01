@@ -1,0 +1,15 @@
+Installing MariaDb in Ubuntu:
+
+   46  sudo apt update -y
+   47  curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | sudo bash
+   48  ls
+   49  sudo apt-get install mariadb-server mariadb-client -y
+   50  clear
+   51  mysql -V
+   52  sudo systemctl status mariadb
+   53  clear
+   54  sudo mysql_secure_installation
+   55  clear
+   56  mysql -u root -p
+   57  clear
+   58  history
